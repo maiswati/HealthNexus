@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= name %></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/patientDashboard.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Megrim&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon">
+</head>
+<body>
+  <div class="content">
+    <nav class="navbackground navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <img src="/images/logo.png" class="logoHealth" alt="logo" height="50px" width="50px">
+          <span class="nexus2 megrim-regular navHeading text-bg-primary">Health Nexus</span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="magra-bold nav-link active" aria-current="page" style="color: black;" href="">Home</a>
+              </li>
+              <hr>
+              <li class="nav-item">
+                <a class="magra-bold nav-link active" aria-current="page" style="color: black;" href="/patientDashboard/<%= name %>/upload">Medical Reports</a>
+              </li>
+              <hr>
+              <li class="nav-item">
+                <a class="magra-bold nav-link active" aria-current="page" style="color: black;" href="/patientDashboard/<%= name %>/appointementBooking">Appointement Schedule</a>
+              </li>
+              <hr>
+              <li class="nav-item">
+                <a class="magra-bold nav-link active" aria-current="page" style="color: black;" href="/patientDashboard/<%= name %>/medicineReminder">Medicine Reminder</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <br><br>
+        <div class='MainDiv'>
+          <div class='MainDiv1'>
+          <div>
+              <img  class="circle" src="/images/Female.png" height="120px" width="120px"/>
+          </div>
+          <div>
+              <div>
+                <h1 class="magra-bold">Welcome <%= name %> !</h1>
+              </div>
+              <div>
+                  <p class='magra-bold head23'><%= patientID %></p>
+              </div>
+          </div>
+          <div>
+          <span class="patient magra-bold badge text-bg-light patient">Patient</span>
+          </div>
+          </div>
+          <div class="goodies">
+          <div>
+          <p class='pp magra-regular'>HealthNexus ensures all records<br/> comply with legal standards under <br/> the Health Information<br/> Privacy and Protection Act.</p>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div>
+        <h1 class="nexus magra-bold">HealthNexus Utility</h1>
+        <br>
+        <div class="utilityContainer">
+            <button class="utilityDiv" onclick="window.location.href='/patientDashboard/<%=name%>/upload'">
+            <div>
+              <div><img src="/images/folder.png" alt="folder" height="50px" width="50px"></div>
+              <h6 class="magra-bold">Report <br/> Drive</h6>
+            </div>
+            </button>
+            <button class="utilityDiv" onclick="window.location.href='/patientDashboard/<%= name %>/appointementBooking'">
+            <div>
+              <div><img src="/images/deadline.png" alt="deadline" height="50px" width="50px"></div>
+              <h6 class="magra-bold">Appointement <br/> Scheduler</h6>
+            </div>
+          </button>
+          <button class="utilityDiv" onclick="window.location.href='/patientDashboard/<%= name %>/medicineReminder'">
+            <div>
+              <div><img src="/images/pillReminder.png" alt="pillReminder" height="50px" width="50px"></div>
+              <h6 class="magra-bold">Medicine <br/> Reminder</h6>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div>
+      </div>
+      <div>
+        <div>
+        </div>
+      </div>
+      <br>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+<!-- //Recent Vitals: Latest readings like blood pressure, heart rate, or sugar levels.
+Next Appointment: Quick overview of the upcoming appointment, including date and time. -->

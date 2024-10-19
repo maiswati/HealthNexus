@@ -1,0 +1,87 @@
+:root {
+    --color-1: #468aaa;
+    --color-2: #1c3261;
+    --color-3: #95bbf9;
+    --color-4: #c6f6dc;
+    --color-5: #abd6ee;
+    --color-6: #f4d35e;
+    --color-7: #f28c8c;
+    --color-9: #f4a261;
+    --color-10: #2c3e50;
+    --color-11: #e07a5f;
+    --color-12: #f7ede2;
+    --color-13: #b8a1d1;
+    --color-14: #374785;
+    --color-15: #db5461;
+    --color-16: #f0f4f8;
+    --color-17: #6d6875;
+    --color-18: #525252;
+    --color-19: #eceff4;
+}
+
+.logo {
+    width: 150px;
+    border-radius: 75px !important;
+}
+
+body {
+    background-color: #95bbf9 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 0;
+}
+
+form {
+    background-color: var(--color-2);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4vh 2vw;
+    color: var(--color-19);
+    margin: 4vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+fieldset {
+    border: 2px solid var(--color-1);
+    padding: 1.5em;
+    margin: 1em 0;
+}
+
+label {
+    width: 100% !important;
+    margin-bottom: 0.5em;
+}
+
+select, input[type="file"]
+{
+    width: 83% !important;
+    padding: 0.5em;
+    transition: border 0.3s ease;
+}
+
+input:focus {
+    border-color: var(--color-3);
+    outline: none;
+}
+
+button {
+    margin: 2vh !important;
+    padding: 0.5em 1.5em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--color-1); 
+}
+
+legend {
+    margin:1vh;
+    text-align: center;
+    color: var(--color-12);
+    /* text-decoration: underline overline; */
+}

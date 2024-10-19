@@ -1,0 +1,151 @@
+body{
+    background-color: white;
+}
+.logo{
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid black;
+}
+.formDiv{
+    background-image: url('/images/formBackground.webp');
+    width: 400px;
+    height: 700px;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(8, 0, 0, 0.8);
+}
+.select-div{
+    color: black;
+    font-weight: 700;
+}
+
+.bigDiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.badge1{
+    font-size: 40px;
+    background-color: #1c3261 !important;
+    text-align: center;
+}
+.span{
+    text-align: center;
+}
+.image{
+    margin-top: 10px;
+    text-align: center;
+}
+.formDiv2{
+    background-image: url('/images/doctorBacground.webp');
+    background-size: contain;
+    width: 400px;
+    height: 600px;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(8, 0, 0, 0.8);
+}
+.input{
+    border: 3px dashed black !important;
+}
+.process{
+    width: 150px;
+    height: 50px;
+    background-color: #1c3261 !important;
+    border: none;
+}
+.lable{
+    color: #1c3261;
+    font-weight: 600;
+}
+.star{
+    color: red;
+}
+.name{
+    border: 1px solid gray;
+    border-radius: 2px;
+    height: 40px;
+}
+.formDiv1{
+    margin: auto;
+    margin-top: 30px;
+    width: 420px;
+    padding: 20px;
+}
+.input-height{
+    height: 150px;
+}
+.submit{
+    background-color: #1c3261 !important;
+    color: white;
+    border: none;
+    border-radius: 18px;
+    font-weight: 600;
+    box-shadow: 0 0 15px rgba(8, 0, 0, 0.6);
+    height: 45px;
+}
+.megrim-regular {
+    font-family: "Megrim", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.text{
+    font-weight: 900;
+    font-size: 23px;
+    background-color: #1c3261 !important;
+    box-shadow: 0 0 15px rgba(8, 0, 0, 0.6);
+    margin-left: 10px;
+}
+.nav{
+    background-color: #95bbf9 !important;
+}
+.logo1{
+    box-shadow: 0 0 15px rgba(8, 0, 0, 0.6);
+}
+.magra-regular {
+    font-family: "Magra", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.morning{
+    font-weight: 700;
+}
+.doctorName{
+    color: #396cf0;
+    font-size: 38px;
+}
+.doctorDiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+}
+@media (max-width: 544px) {
+    .doctorDiv{
+      display: flex;
+      flex-direction: column;
+    }
+    .descriptionDiv{
+        margin-top: 20px;
+    }
+    .healthDiv{
+        text-align: center;
+    }
+}
+.text3{
+    color: #8492a6;
+    font-size: 19px;
+    font-family: sans-serif;
+}
+.descriptionDiv{
+    max-width: 400px;
+}
+.badge2{
+    font-size: 20px;
+    background-color: #1c3261 !important;
+}
+.doctorAvatar{
+    margin: 15px;
+}
+

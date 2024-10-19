@@ -1,0 +1,135 @@
+body {
+    /* background-image: url('/images/background.webp'); */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    animation: slowZoom 20s ease-in-out infinite alternate;
+    background-color: #95bbf9;
+  }
+  
+  @keyframes slowZoom {
+    0% {
+      background-size: 100%;
+    }
+    100% {
+      background-size: 105%;
+    }
+  }
+
+.badge1{
+    font-size: 25px;
+    background-color: #c6f6dc !important;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    color: white !important;
+    font-weight: 800 !important;
+    color: black !important;
+}
+.megrim-regular {
+    font-family: "Megrim", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.heading{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+.backRemove{
+    background-color: #eceff4;
+}
+.inputDiv{
+    margin-top: 25px;
+}
+.proceed{
+    background-color: dodgerblue !important;
+    border: none;
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.para{
+    color: white;
+    margin-top: 2px;
+}
+.BrandDivBig{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.brandDiv{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    background-color: white;
+    margin: 4px;
+    align-items: center;
+}
+.whiteBack{
+    background-color: white;
+}
+.whiteBack:hover{
+    background-color: inherit;
+}
+.margin{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.LoginDiv1{
+    background-color: #1b3060 !important;
+}
+.LoginDiv{
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    width: 400px;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 80px;
+    box-shadow: 0 0 15px rgba(8, 0, 0, 0.8);
+}
+.bt2{
+    width: 300px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.para1{
+    color: white;
+}
+.badgeLogin{
+    font-size: 25px;
+    background-color: indigo !important;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    color: white !important;
+    font-weight: 800 !important;
+}
+.heading1{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+}
+.dropDown{
+    background-color: white;
+    color: black;
+}
+.otherOption{
+    color: white;
+}
+.otherOption1{
+    color: black;
+}
+.anchor{
+    text-decoration: none;
+    color: blue;
+}
+.LoginDiv2{
+    background-color: white !important;
+}
+.pointer{
+    cursor: pointer;
+}
+.logo{
+    border-radius: 50%;
+}
+
